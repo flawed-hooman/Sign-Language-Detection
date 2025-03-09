@@ -20,4 +20,5 @@ __pycache__/
 # VS Code and Jupyter stuff
 .vscode/
 .ipynb_checkpoints/
+*.jpg
 *.xml
