@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image_collection</folder>
+	<filename>hello.659e5fee-fcbf-11ef-8a7f-497482b7f4d3.jpg</filename>
+	<path>/home/urnisha/RealTimeObjectDetection/Tensorflow/workspace/images/image_collection/hello.659e5fee-fcbf-11ef-8a7f-497482b7f4d3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hello</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>317</xmin>
+			<ymin>216</ymin>
+			<xmax>515</xmax>
+			<ymax>417</ymax>
+		</bndbox>
+	</object>
+</annotation>

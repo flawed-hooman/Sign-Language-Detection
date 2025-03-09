@@ -1,0 +1,22 @@
+# Ignore pre-trained models and external dependencies
+Tensorflow/models/
+Tensorflow/labelImg/
+
+# Ignore checkpoints, logs, and other training artifacts
+*.ckpt
+*.pbtxt
+*.record
+checkpoint/
+exported-models/
+saved_model/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.DS_Store
+
+# VS Code and Jupyter stuff
+.vscode/
+.ipynb_checkpoints/

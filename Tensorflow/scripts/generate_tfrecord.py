@@ -96,9 +96,15 @@ def xml_to_csv(path):
     xml_df = pd.DataFrame(xml_list, columns=column_name)
     return xml_df
 
-
 def class_text_to_int(row_label):
-    return label_map_dict[row_label]
+    label_map_dict = {
+        'hello': 1,
+        'yes': 2,
+        'no': 3,
+        'thank you': 4,
+        'i love you': 5
+    }
+    return label_map_dict.get(row_label.lower())
 
 
 def split(df, group):
